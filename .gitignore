@@ -7,4 +7,5 @@ $RECYCLE.BIN/
 *~
 *.wx64fsl
 .#*
+templ.lisp
 test-units.lisp
