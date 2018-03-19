@@ -16,7 +16,7 @@
 ;;;
 ;;; (json-file:read-from
 ;;;      "/tmp/config/some.json"
-;;;      (jso:mk "encoding" "window-1251" "throws" t)
+;;;      (jso:mk "encoding" "window-1251" "throw" t)
 ;;;      (lambda (errmsg readed-object) ))
 ;;;
 ;;; Return: none
