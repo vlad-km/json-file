@@ -12,7 +12,8 @@
 
 (defpackage #:json-file
   (:use #:cl)
-  (:export #:read-from #:read-sync-from
+  (:export #:check-file-exists
+           #:read-from #:read-sync-from
            #:write-to #:write-sync-to))
 
 

@@ -11,6 +11,19 @@
 
 (in-package :json-file)
 
+
+;;;
+(defun check-file-exists (pathname)
+    (#j:Fs:existsSync pathname))
+
+
+;;; options
+;;;
+;;; encoding - encoding string
+;;; throw -  catch or not error msg
+;;; spaces - how many spaces add to json format
+;;;          JSON:stringify spaces (write-to, write-sync-to)
+
 ;;;
 ;;; Async read json file
 ;;;
